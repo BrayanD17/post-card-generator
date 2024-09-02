@@ -1,0 +1,129 @@
+/* Estilos generales */
+body {
+  background-image: url('./assets/images/Fondo.jpg');
+  background-size: cover; /* para cubrir todo el fondo */
+  background-repeat: no-repeat; /* para evitar la repetición del video */
+  background-attachment: fixed; /* para fijar el fondo en su lugar */
+}
+
+/* Estilos para el contenedor principal */
+.especificaciones-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 220, 0.8); /* Color de fondo beige transparente */
+  width: 800px;
+  height: 600px;
+  padding: 20px; /* Añadir espacio alrededor del contenedor */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+
+/* Estilos para los campos de texto */
+.campo-texto-arriba,
+.campo-texto-abajo,
+.estilo-letra,
+.seleccion-tamano-fuente {
+  margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas */
+.especificaciones-label {
+  color: #333; /* Color del texto */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 8px; /* Espacio inferior */
+  align-items: center;
+}
+
+/* Estilos para los inputs y selects */
+.especificaciones-input,
+.especificaciones-select {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde gris */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Color del texto */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+.especificaciones-input{
+  font-family: 'CustomFont', sans-serif;
+}
+/* Estilos para hover y focus */
+.especificaciones-input:hover,
+.especificaciones-select:hover,
+.especificaciones-input:focus,
+.especificaciones-select:focus {
+  border-color: #66afe9; /* Borde azul claro */
+  outline: none; /* Quita el contorno de enfoque */
+}
+
+/* Estilos para los selects desplegables */
+.especificaciones-select {
+  appearance: none; /* Oculta el botón desplegable predeterminado */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 30px; /* Espacio a la derecha para la flecha */
+}
+
+/* Estilos para los selects desplegables en hover y focus */
+.especificaciones-select:hover,
+.especificaciones-select:focus {
+  background-color: #f9f9f9; /* Cambia el fondo en hover/focus */
+}
+
+/* Estilos para el contenedor del nuevo botón */
+.botones-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos alrededor del contenedor */
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Estilos para el botón de seleccionar imagen */
+.boton-seleccionar-imagen {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-bottom: 40px;
+  margin-left: 340px;
+}
+
+.boton-seleccionar-imagen:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+
+/* Estilos para la vista previa de la imagen */
+.vista-previa-imagen {
+  margin-top: 20px;
+}
+
+/* Estilos para el nuevo botón "boton-enviar" */
+.boton-enviar {
+  background-color: #28a745; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-left: 10px; /* Espacio entre el botón "boton-seleccionar-imagen" y el nuevo botón */
+  margin-right: 340px;
+  margin-top: -10px;
+}
+
+.boton-enviar:hover {
+  background-color: #218838; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+.mostrar-texto-arriba,
+.mostrar-texto-abajo {
+  color: white;
+}
